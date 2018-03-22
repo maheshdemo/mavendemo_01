@@ -1,54 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
-  <reporter-output>
-  </reporter-output>
-  <suite name="Test Application Suite" duration-ms="49135" started-at="2018-03-22T11:09:29Z" finished-at="2018-03-22T11:10:18Z">
-    <groups>
-    </groups>
-    <test name="Test Application Test" duration-ms="49135" started-at="2018-03-22T11:09:29Z" finished-at="2018-03-22T11:10:18Z">
-      <class name="RMSScripts.SC14_RequisitionsCountByCities">
-        <test-method status="PASS" signature="rmsPreCondition(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:RMSScripts.SC14_RequisitionsCountByCities@5cb9f472]" name="rmsPreCondition" is-config="true" duration-ms="25007" started-at="2018-03-22T16:39:29Z" finished-at="2018-03-22T16:39:54Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[FF]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://jobs2.deloitte.com/global/en]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Careers at Deloitte Global | Deloitte Global jobs]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[mm/dd/yyyy]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- rmsPreCondition -->
-        <test-method status="PASS" signature="test()[pri:0, instance:RMSScripts.SC14_RequisitionsCountByCities@5cb9f472]" name="test" duration-ms="23488" started-at="2018-03-22T16:39:54Z" finished-at="2018-03-22T16:40:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="postCondition(java.lang.String)[pri:0, instance:RMSScripts.SC14_RequisitionsCountByCities@5cb9f472]" name="postCondition" is-config="true" duration-ms="610" started-at="2018-03-22T16:40:17Z" finished-at="2018-03-22T16:40:18Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[FF]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postCondition -->
-      </class> <!-- RMSScripts.SC14_RequisitionsCountByCities -->
-    </test> <!-- Test Application Test -->
-  </suite> <!-- Test Application Suite -->
-</testng-results>
+<testsuites>
+   <testsuite name="JUnitXmlReporter" errors="0" tests="0" failures="0" time="0" timestamp="2013-05-24T10:23:58" />
+   <testsuite name="JUnitXmlReporter.constructor" errors="0" skipped="1" tests="3" failures="1" time="0.006" timestamp="2013-05-24T10:23:58">
+      <properties>
+         <property name="java.vendor" value="Sun Microsystems Inc." />
+         <property name="compiler.debug" value="on" />
+         <property name="project.jdk.classpath" value="jdk.classpath.1.6" />
+      </properties>
+      <testcase classname="JUnitXmlReporter.constructor" name="should default path to an empty string" time="0.006">
+         <failure message="test failure">Assertion failed</failure>
+      </testcase>
+      <testcase classname="JUnitXmlReporter.constructor" name="should default consolidate to true" time="0">
+         <skipped />
+      </testcase>
+      <testcase classname="JUnitXmlReporter.constructor" name="should default useDotNotation to true" time="0" />
+   </testsuite>
+</testsuites>
